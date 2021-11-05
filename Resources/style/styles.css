@@ -24,6 +24,9 @@ h3{
     background-color: tan;
 }
 
+#Future h3 {
+    background-color: lightpink;
+}
 
 img.niceimage { 
     margin-left: auto; 
