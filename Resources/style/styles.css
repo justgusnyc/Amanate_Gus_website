@@ -6,7 +6,7 @@ h3{
     text-align: center;
 }
 #Religion h3 {
-    background-color: lightgreen;
+    background-color: skyblue;
 }
 
 #History h3 {
@@ -14,11 +14,7 @@ h3{
 }
 
 #Controversy h3 {
-
-}
-
-p {
-
+    background-color: deeppink;
 }
 
 body {
