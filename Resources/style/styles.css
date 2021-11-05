@@ -1,5 +1,9 @@
-.heading{
+h1{
     text-align: center;
+}
+
+body {
+    background-color: darkseagreen;
 }
 
 h3{
@@ -20,13 +24,11 @@ h3{
     background-color: tan;
 }
 
-body {
-    background-color: darkseagreen;
-}
 
 img.niceimage { 
     margin-left: auto; 
     margin-right: auto;
+    margin-top: 10%;
     display: block;
 }
 article {
@@ -37,25 +39,35 @@ p {
     text-align: center; margin: 2.70%
 }
 
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    background-color:grey;
-    display: block;
+
+
+#menu-outer {
+	height: 84px;
+	background: url(images/bar-bg.jpg) repeat-x;
 }
 
-li  {
-    float:left
-    
+.table {
+	display: table;   /* Allow the centering to work */
+	margin: 0 auto;
 }
 
-li a {
-    text-align: center;
+ul#horizontal-list {
+	min-width: 696px;
+	list-style: none;
+	padding-top: 20px;
+	}
+	ul#horizontal-list li {
+		display: inline;
+	}
+
+.menu{
     text-decoration: none;
+    list-style-type: none;
     color: greenyellow;
-    font-weight: bolder;
-    display: block;
-    font-size: 150%;
+    font-size: large;
+    border: 2px solid black;
+    padding: 5%;
+    display: inline-block;
 }
+
 
