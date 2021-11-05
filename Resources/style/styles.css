@@ -73,4 +73,6 @@ ul#horizontal-list {
     display: inline-block;
 }
 
-
+.menu:hover {
+    background-color: silver;
+}
